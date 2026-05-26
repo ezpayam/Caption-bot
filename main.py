@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 import anthropic
 
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
+TELEGRAM_TOKEN = os.environ.get("8135872395:AAEojpiYSPs91b-c98E67g7g9VCDrLTk2z8")
 CLAUDE_API_KEY = os.environ.get("CLAUDE_API_KEY")
 
 client = anthropic.Anthropic(api_key=CLAUDE_API_KEY)
